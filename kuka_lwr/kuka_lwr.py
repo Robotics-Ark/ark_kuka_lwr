@@ -101,7 +101,7 @@ class KukaLWR(Robot):
         }
     
     ####################################################
-    ##      Franka Subscriber Callbacks               ##
+    ##      Kuka LWR Subscriber Callbacks             ##
     ####################################################
     def _joint_group_command_callback(self, t, channel_name, msg):
         cmd, name = unpack.joint_group_command(msg)
@@ -119,7 +119,7 @@ class KukaLWR(Robot):
         }
 
     ####################################################
-    ##       Franka Custom Control Methods            ##
+    ##       Kuka LWR Custom Control Methods          ##
     ##    note: control_joint_group is default        ##
     ####################################################
 

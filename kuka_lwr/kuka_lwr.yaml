@@ -1,4 +1,4 @@
-name: "Franka"
+name: "KukaLWR"
 config:
   source: "urdf"
   urdf_path: "meshes/kuka_lwr/kuka.urdf"

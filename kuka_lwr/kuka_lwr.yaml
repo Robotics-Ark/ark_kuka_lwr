@@ -1,8 +1,8 @@
-name: "Franka"
+name: "KukaLWR"
 config:
   source: "urdf"
   urdf_path: "meshes/kuka_lwr/kuka.urdf"
-  class_dir: "../../ark_robots/ark_kuka_lwr/kuka_lwr"
+  class_dir: "../kuka_lwr"
   frequency: 240 # default is 240Hz
   base_position:
     - 0

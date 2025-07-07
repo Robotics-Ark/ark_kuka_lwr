@@ -1,15 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="franka",
+    name="kuka-lwr",
     version="0.1.0",
-    description="Franka Panda robot driver for the ARK framework",
+    description="Kuka LWR robot driver for the ARK framework",
     author="Sarthak Das",
     author_email="sdas4@icloud.com",
     packages=find_packages(),
     install_requires=[
         "ark",
-        "franky",
         "numpy",
         "scipy",
      ],
